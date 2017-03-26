@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    $('#quote').html('"' + quotes[randomize()] + '"');
 
-    $('#quote').html('"' +quotes[0] + '"'); 
+    window.setInterval(changeQuote, 5000);
 });
+
+function changeQuote() {
+    $('#quote').fadeOut(function() {
+        $(this).html('"' + quotes[randomize()] + '"')
+    });
+    $('#quote').fadeIn();
+}
+
+function randomize() {
+    return Math.floor(Math.random() * quotes.length);
+}
