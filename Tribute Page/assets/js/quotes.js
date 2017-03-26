@@ -33,7 +33,14 @@ const quotes = [
     "I think it’s the duty of the comedian to find out where the line is drawn and cross it deliberately.",
     "When you’re born you get a ticket to the freak show. When you’re born in America, you get a front-row seat.",
     "Eventually, alas, I realized the main purpose of buying cocaine is to run out of it.",
-    "I never fucked a ten, but one night, I fucked five twos.",
     "I never joined the Boy Scouts. I don’t trust any organization that has a handbook.",
-    "I would never want to be a member of a group whose symbol was a man nailed to two pieces of wood."
+    "I would never want to be a member of a group whose symbol was a man nailed to two pieces of wood.",
+    "So I say, “Live and let live.” That’s my motto. “Live and let live.” Anyone who can’t go along with that, take him outside and shoot the motherfucker. It’s a simple philosophy, but it’s always worked in our family.",
+    "Catholic — which I was until I reached the age of reason.",
+    "Here’s a bumper sticker I’d like to see: “We are the proud parents of a child who’s self-esteem is sufficient that he doesn’t need us promoting his minor scholastic achievements on the back of our car.”",
+    "I love and treasure individuals as I meet them; I loathe and despise the groups they identify with and belong to.",
+    "Beethoven was so hard of hearing, he thought he was a painter.",
+    "Don Ho can sign autographs 3.4 times faster than Efrem Zimbalist Jr.",
+    "God bless the homicidal maniacs. They make life worthwhile.",
+    "One great thing about getting old is that you can get out of all sorts of social obligations just by saying you’re too tired."
 ]
