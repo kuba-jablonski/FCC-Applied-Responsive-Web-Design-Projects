@@ -1,17 +1,26 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: Georgia, serif;
+    height: 100%;
 }
 
 header {
     background-image: url("../images/carlin_header.jpg");
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: white;
 }
 
 img {
+    width: 100%;
+}
+
+iframe {
     width: 100%;
 }
 
@@ -20,3 +29,15 @@ img {
         margin-top: 20%;
     }
  }
+
+@media (max-width: 576px) {
+    section {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #videobox {
+        padding-top: 20px;
+    }
+}
