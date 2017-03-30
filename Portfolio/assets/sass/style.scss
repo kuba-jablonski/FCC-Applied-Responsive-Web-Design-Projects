@@ -1,0 +1,50 @@
+// Colors
+$grey: #5C5757;
+$pop: #00acc1;
+//Fonts
+$playfair: 'Playfair Display', serif;
+$open-sans: 'Open Sans', sans-serif;
+// *****************************
+
+// Global
+body {
+    background-color: white;
+    color: $grey;
+    font-family: $open-sans;
+}
+
+// Nav
+nav {
+    background-color: white;
+    border-bottom: 10px solid $grey;
+    .link {
+        color: $grey;
+        &:hover {
+            background-color: $grey;
+            color: white;
+        }
+    }
+}
+nav ul a {
+    transition: none;
+}
+
+//Hero
+.hero {
+    border-bottom: 10px solid $grey;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    font-family: $playfair;
+    h1 {
+        font-size: 500%;
+    }
+    p {
+        color: white;
+        font-size: 120%;
+        font-style: italic;
+        background-color: $pop;
+    }
+    img {
+        margin-top: 2.1rem;
+    }
+}
+
