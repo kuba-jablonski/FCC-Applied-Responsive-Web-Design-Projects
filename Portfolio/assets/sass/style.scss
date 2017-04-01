@@ -1,10 +1,15 @@
 // Colors
 $grey: #5C5757;
-$pop: #00acc1;
+$pop: #26a69a;
 //Fonts
 $playfair: 'Playfair Display', serif;
 $open-sans: 'Open Sans', sans-serif;
-// *****************************
+//Breakpoints
+$mobile: "screen and (max-width: 600px)";
+$tablet: "screen and (max-width: 992px)";
+$desktop: "screen and (min-width: 993px)";
+
+// ******************************************************
 
 // Global
 body {
@@ -48,3 +53,21 @@ nav ul a {
     }
 }
 
+//Portfolio
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    margin-right: 0px;
+    color: $pop;
+    &:hover {
+        color: fade-out($pop, .5);
+    }
+}
+
+//Contact
+.input-field .prefix.active {
+    color: $pop;
+}
+
+textarea:focus {
+  border-bottom: 1px solid $pop;
+  box-shadow: 0 1px 0 0 $pop;
+}

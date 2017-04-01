@@ -25,8 +25,21 @@ nav ul a {
     color: white;
     font-size: 120%;
     font-style: italic;
-    background-color: #00acc1; }
+    background-color: #26a69a; }
   .hero img {
     margin-top: 2.1rem; }
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  margin-right: 0px;
+  color: #26a69a; }
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: rgba(38, 166, 154, 0.5); }
+
+.input-field .prefix.active {
+  color: #26a69a; }
+
+textarea:focus {
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /*# sourceMappingURL=style.css.map */
