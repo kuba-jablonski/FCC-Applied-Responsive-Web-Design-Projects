@@ -13,7 +13,7 @@ nav {
       color: white; }
 
 nav ul a {
-  transition: none; }
+  transition: background .3s linear, color .2s linear; }
 
 .hero {
   border-bottom: 10px solid #5C5757;
@@ -52,7 +52,18 @@ nav ul a {
   .page-footer a {
     color: white; }
   .page-footer #github-icon {
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: linear;
     margin-right: 1.5rem; }
+    .page-footer #github-icon:hover {
+      color: #26a69a; }
+  .page-footer #linkedin-icon {
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: linear; }
+    .page-footer #linkedin-icon:hover {
+      color: #26a69a; }
   .page-footer .fa-linkedin {
     position: relative;
     bottom: 2px; }

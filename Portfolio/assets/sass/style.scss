@@ -8,6 +8,12 @@ $open-sans: 'Open Sans', sans-serif;
 $mobile: "screen and (max-width: 600px)";
 $tablet: "screen and (max-width: 992px)";
 $desktop: "screen and (min-width: 993px)";
+//Mixins
+@mixin icon-transition {
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
 
 // ******************************************************
 
@@ -31,7 +37,7 @@ nav {
     }
 }
 nav ul a {
-    transition: none;
+    transition: background .3s linear, color .2s linear;
 }
 
 //Hero
@@ -84,7 +90,17 @@ nav ul a {
         color: white;
     }
     #github-icon {
+        @include icon-transition;
         margin-right: 1.5rem;
+        &:hover {
+            color: $pop;
+        }
+    }
+    #linkedin-icon {
+        @include icon-transition;
+        &:hover {
+            color: $pop;
+        }
     }
     .fa-linkedin {
         position: relative;
