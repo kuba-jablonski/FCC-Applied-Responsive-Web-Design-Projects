@@ -35,6 +35,12 @@ nav ul a {
   .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
     color: rgba(38, 166, 154, 0.5); }
 
+#contact-form {
+  padding-right: 0; }
+  @media screen and (max-width: 600px) {
+    #contact-form {
+      padding-left: 0; } }
+
 .page-footer {
   background-color: #5C5757;
   padding-top: 0px; }
