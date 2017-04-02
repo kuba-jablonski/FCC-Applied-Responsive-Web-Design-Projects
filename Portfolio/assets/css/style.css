@@ -35,11 +35,20 @@ nav ul a {
   .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
     color: rgba(38, 166, 154, 0.5); }
 
-.input-field .prefix.active {
-  color: #26a69a; }
-
-textarea:focus {
-  border-bottom: 1px solid #26a69a;
-  box-shadow: 0 1px 0 0 #26a69a; }
+.page-footer {
+  background-color: #5C5757;
+  padding-top: 0px; }
+  .page-footer .container {
+    color: white; }
+    @media only screen and (min-width: 601px) {
+      .page-footer .container {
+        width: 95%; } }
+  .page-footer a {
+    color: white; }
+  .page-footer #github-icon {
+    margin-right: 1.5rem; }
+  .page-footer .fa-linkedin {
+    position: relative;
+    bottom: 2px; }
 
 /*# sourceMappingURL=style.css.map */

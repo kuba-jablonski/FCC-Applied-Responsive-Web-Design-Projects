@@ -7,6 +7,7 @@
     <!-- Import Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400i,700" rel="stylesheet">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
     <!-- Custom CSS -->
@@ -18,134 +19,150 @@
 <body>
 
     <!-- Top Navbar -->
-    <nav>
-        <div class="nav-wrapper">
-            <ul id="nav-mobile" class="left">
-                <li><a class="link" href="#portfolio">Portfolio</a></li>
-                <li><a class="link" href="#aboutme">About me</a></li>
-                <li><a class="link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left">
+                    <li><a class="link" href="#portfolio">Portfolio</a></li>
+                    <li><a class="link" href="#aboutme">About me</a></li>
+                    <li><a class="link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- Hero -->
-    <div class="hero">
-        <div class="container section">
-            <div class="row">
-                <div class="col s12 m5 center-align">
-                    <img class="responsive-image circle" src="assets/images/face.jpg">
-                </div>
-                <div class="col s12 m7 center-align">
-                    <h1>Jakub<br>Jabłoński</h1>
-                    <p>Full-Stack JavaScript</p>
+        <!-- Hero -->
+        <div class="hero">
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12 m5 center-align">
+                        <img class="responsive-image circle" src="assets/images/face.jpg">
+                    </div>
+                    <div class="col s12 m7 center-align">
+                        <h1>Jakub<br>Jabłoński</h1>
+                        <p>Full-Stack JavaScript</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </header>
 
     <!-- Portfolio -->
-    <div id="portfolio" class="section scrollspy">
+    <main>
+        <div id="portfolio" class="section scrollspy">
 
-        <h3 class="center-align">What have I made?</h3>
+            <h3 class="center-align">What have I made?</h3>
 
-        <div class="row">
+            <div class="row">
 
-            <div class="col s12 m6 l4">
-                <div class="card medium">
-                    <div class="card-image">
-                        <img src="assets/images/wiki.png">
-                    </div>
-                    <div class="card-content">
-                        <p>A wiki-viewer hooked to the Wikipedia API. Made using bootstrap.</p>
-                    </div>
-                    <div class="card-action">
-                        <a class="left" href="#">Link to project</a>
-                        <a class="right" href="#">Code on github</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-                <div class="card medium">
-                    <div class="card-image">
-                        <img src="assets/images/wiki.png">
-                    </div>
-                    <div class="card-content">
-                        <p>A wiki-viewer hooked to the Wikipedia API. Made using bootstrap.</p>
-                    </div>
-                    <div class="card-action">
-                        <a class="left" href="#">Link to project</a>
-                        <a class="right" href="#">Code on github</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-                <div class="card medium">
-                    <div class="card-image">
-                        <img src="assets/images/wiki.png">
-                    </div>
-                    <div class="card-content">
-                        <p>A wiki-viewer hooked to the Wikipedia API. Made using bootstrap.</p>
-                    </div>
-                    <div class="card-action">
-                        <a class="left" href="#">Link to project</a>
-                        <a class="right" href="#">Code on github</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="section">
-        <div class="row">
-
-            <!-- About me -->
-            <div class="col l6">
-                <h3 id="aboutme" class="center-align scrollspy">About me</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula pretium mi, ut dictum odio. In faucibus
-                    ex ac dui vulputate feugiat. Sed porttitor neque cursus blandit imperdiet. Nulla quis dui eget lacus
-                    ultricies faucibus. Donec et tortor augue. Aliquam aliquam suscipit est, quis venenatis eros faucibus
-                    vitae. Aliquam sed neque dapibus, scelerisque ipsum a, pharetra augue. Sed ac justo eu arcu tristique
-                    iaculis. Pellentesque non sollicitudin dolor, quis sagittis nisl. Aenean gravida facilisis accumsan.
-                    Cras iaculis et ex a malesuada. Vivamus ultrices iaculis sapien, ac dignissim risus viverra vel. Sed
-                    sollicitudin rutrum accumsan. Vestibulum blandit augue in urna molestie blandit.</p>
-            </div>
-
-            <!-- Conctact -->
-            <div class="col l6">
-
-                <h3 id="contact" class="center-align scrollspy">Contact</h3>
-
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Name</label>
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="assets/images/wiki.png">
                         </div>
-
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">email</i>
-                            <input id="email" type="email" class="validate">
-                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                        <div class="card-content">
+                            <p>A wiki-viewer hooked to the Wikipedia API. Made using bootstrap.</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="left" href="#">Link to project</a>
+                            <a class="right" href="#">Code on github</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="input-field col s12">
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">Message</label>
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="assets/images/wiki.png">
+                        </div>
+                        <div class="card-content">
+                            <p>A wiki-viewer hooked to the Wikipedia API. Made using bootstrap.</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="left" href="#">Link to project</a>
+                            <a class="right" href="#">Code on github</a>
+                        </div>
                     </div>
-                </form>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="assets/images/wiki.png">
+                        </div>
+                        <div class="card-content">
+                            <p>A wiki-viewer hooked to the Wikipedia API. Made using bootstrap.</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="left" href="#">Link to project</a>
+                            <a class="right" href="#">Code on github</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-
         </div>
-    </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <div class="row">
+
+                <!-- About me -->
+                <div class="col l6">
+                    <h3 id="aboutme" class="center-align scrollspy">About me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula pretium mi, ut dictum odio.
+                        In faucibus ex ac dui vulputate feugiat. Sed porttitor neque cursus blandit imperdiet. Nulla quis
+                        dui eget lacus ultricies faucibus. Donec et tortor augue. Aliquam aliquam suscipit est, quis venenatis
+                        eros faucibus vitae. Aliquam sed neque dapibus, scelerisque ipsum a, pharetra augue. Sed ac justo
+                        eu arcu tristique iaculis. Pellentesque non sollicitudin dolor, quis sagittis nisl. Aenean gravida
+                        facilisis accumsan. Cras iaculis et ex a malesuada. Vivamus ultrices iaculis sapien, ac dignissim
+                        risus viverra vel. Sed sollicitudin rutrum accumsan. Vestibulum blandit augue in urna molestie blandit.</p>
+                </div>
+
+                <!-- Conctact -->
+                <div class="col l6">
+
+                    <h3 id="contact" class="center-align scrollspy">Contact</h3>
+
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Name</label>
+                            </div>
+
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Jakub Jabłoński
+                <a id="linkedin-icon" class="right" href="https://www.linkedin.com/in/jakub-jab%C5%82o%C5%84ski-47a990138/" target="_blank"><i class="fa fa-linkedin fa-lg"></i> Linked In</a>
+                <a id="github-icon" class="right" href="https://github.com/kuba-jablonski" target="_blank"><i class="fa fa-github fa-lg"></i> Github</a>
+            </div>
+        </div>
+    </footer>
+
+
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
